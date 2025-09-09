@@ -5,7 +5,7 @@
 #include <ESPmDNS.h>
 #include <ArduinoJson.h>
 
-static const char* MDNS_HOST = "esp32";   // will be reachable at http://esp32.local
+static const char* MDNS_HOST = "aria";   // will be reachable at http://aria.local
 AsyncWebServer server(80);
 
 String wifiSSID, wifiPASS;
